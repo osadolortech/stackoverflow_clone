@@ -24,6 +24,7 @@ ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_UNIQUE_EMAIL = True
 ACCOUNT_UNIQUE_USERNAME = True
 ACCOUNT_EMAIL_VERIFICATION = 'none'
+ACCOUNT_LOGOUT_ON_GET = True
 
 AUTH_USER_MODEL = 'user.User'
 # Quick-start development settings - unsuitable for production
